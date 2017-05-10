@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./css/style.css" rel="stylesheet" />
+    <style>
+        .wrapper {
+            display: grid;
+            grid-template-columns: 100px 100px 100px;
+            grid-gap: 10px;
+            background-color: #fff;
+            color: #444;
+        }
+
+        .box {
+            background-color: #444;
+            color: #fff;
+            border-radius: 5px;
+            padding: 20px;
+            font-size: 150%;
+        }
+
+        .a {
+            grid-column: 2 / 3;
+            grid-row: 1 / 2;
+        }
+
+        .b {
+            grid-column: 2 / 3;
+            grid-row: 2 / 3;
+        }
+
+        .c {
+            grid-column: 3 / 4;
+            grid-row: 2 / 3;
+        }
+
+        .d {
+            grid-column: 1 / 2;
+            grid-row: 1 / 2;
+        }
+
+        .e {
+            grid-column: 1 / 2;
+            grid-row: 2 / 3;
+        }
+
+        .f {
+            grid-column: 3 / 4;
+            grid-row: 1 / 2;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="body-wrapper">
+        <div class="header">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    GRID
+                </div>
+                <div class="nav">
+                    <div class="nav-link"><a href="./index.html">home</a></div>
+                    <div class="nav-link active"><a href="javascript:void(0)">properties</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="content properties">
+            <div class="sidebar">
+                <p><b>Properties of Grid Container</b></p>
+                <ul>
+                    <li><a href="#display">display</a></li>
+                    <li><a href="#">grid-template-columns</a></li>
+                    <li><a href="#">grid-template-rows</a></li>
+                    <li><a href="#">grid-template-areas</a></li>
+                    <li><a href="#">grid-template</a></li>
+                    <li><a href="#">grid-column-gap</a></li>
+                    <li><a href="#">grid-row-gap</a></li>
+                    <li><a href="#">grid-gap</a></li>
+                    <li><a href="#">justify-items</a></li>
+                    <li><a href="#">align-items</a></li>
+                    <li><a href="#">justify-content</a></li>
+                    <li><a href="#">align-content</a></li>
+                    <li><a href="#">grid-auto-columns</a></li>
+                    <li><a href="#">grid-auto-rows</a></li>
+                    <li><a href="#">grid-auto-flow</a></li>
+                    <li><a href="#">grid</a></li>
+                </ul>
+                <p><b>Properties of Grid Items</b></p>
+                <ul>
+                    <li><a href="#">grid-column-start</a></li>
+                    <li><a href="#">grid-column-end</a></li>
+                    <li><a href="#">grid-row-start</a></li>
+                    <li><a href="#">grid-row-end</a></li>
+                    <li><a href="#">grid-column</a></li>
+                    <li><a href="#">grid-row</a></li>
+                    <li><a href="#">grid-area</a></li>
+                    <li><a href="#">justify-self</a></li>
+                    <li><a href="#">align-self</a></li>
+                </ul>
+            </div>
+            <div class="container">
+                <h1 id="display">Display</h1>
+                <div class="wrapper">
+                    <div class="box a">A</div>
+                    <div class="box b">B</div>
+                    <div class="box c">C</div>
+                    <div class="box d">D</div>
+                    <div class="box e">E</div>
+                    <div class="box f">F</div>
+                </div>
+                <h1 id="grid-row-column">GRID Row / Column</h1>
+                <div class="wrapper">
+                    <div class="box a">A</div>
+                    <div class="box b">B</div>
+                    <div class="box c">C</div>
+                    <div class="box d">D</div>
+                    <div class="box e">E</div>
+                    <div class="box f">F</div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <p class="copy-rights">Arun Krishnan</p>
+        </div>
+    </div>
+</body>
+
+</html>

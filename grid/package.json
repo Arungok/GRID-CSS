@@ -1,0 +1,20 @@
+{
+  "name": "grid",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "watches": {
+    "sass": "sass/**"
+  },
+  "scripts": {
+    "sass": "node-sass sass/ -o css/",
+    "dev": "rerun-script"
+  },
+  "author": "Arun Krishnan",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.5.2",
+    "nodemon": "^1.11.0",
+    "rerun-script": "^0.6.0"
+  }
+}
